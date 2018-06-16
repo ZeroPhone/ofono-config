@@ -1,0 +1,14 @@
+Source: zerophone-ofono-config
+Section: unknown
+Priority: optional
+Maintainer: Arsenijs Picugins <crimier@yandex.ru>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.8
+Homepage: https://github.com/ZeroPhone/ofono-config
+#Vcs-Git: https://anonscm.debian.org/collab-maint/zerophone-ofono-config.git
+#Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/zerophone-ofono-config.git
+
+Package: zerophone-ofono-config
+Architecture: all
+Depends: ofono
+Description: The ofono configuration file for ZeroPhone. For now, consists of a udev entry.
