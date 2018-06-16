@@ -1,1 +1,1 @@
-51-ofono.rules /etc/udev/rules.d
+51-ofono.rules /lib/udev/rules.d
